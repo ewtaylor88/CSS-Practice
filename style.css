@@ -1,0 +1,55 @@
+.styledFont {
+    font-size: 20px;
+    background: -webkit-linear-gradient(60deg, #2638C4, #97cf16);
+    background-size: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#first {
+    color: red
+}
+
+#second {
+    color: blue
+}
+
+#third {
+    color: green
+}
+
+#fourth {
+    font-size: 28px
+}
+
+#fifth {
+    font-size: 5px
+}
+
+h1, #sixth {
+    text-align: center;
+}
+
+#seventh {
+    font-weight: bold;
+}
+
+#eighth {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ninth {
+    font-size: 28px;
+    color: orange;
+    font-weight: bold;
+}
+
+.styledImage {
+    border: solid;
+    border-image-slice: 1;
+    border-width: 30px;
+}
+
+.styledImageGradient {
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
